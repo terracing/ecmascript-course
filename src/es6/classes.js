@@ -16,7 +16,7 @@ const calc = new calculator()
 console.log(calc.sum(7,8))
 
 import { hello } from './hello-module.js';
-console.log(hello());
+console.log(hello);
 
 /* Generators */
 function* helloWorld() {
